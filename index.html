@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daros Serviços</title>
+
+<style>
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* CORES */
+body{
+  background:#f2f2f2;
+  color:#333;
+}
+
+/* CONTAINER */
+.container{
+  max-width:1100px;
+  margin:auto;
+  padding:20px;
+}
+
+/* HEADER */
+header{
+  background:#444;
+  color:white;
+  text-align:center;
+  padding:30px 20px;
+}
+
+header h1{
+  font-size:32px;
+}
+
+header p{
+  margin-top:10px;
+  font-size:18px;
+}
+
+/* HERO */
+.hero{
+  background:white;
+  border-radius:15px;
+  padding:50px 20px;
+  margin:30px 0;
+  text-align:center;
+  box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.hero h2{
+  font-size:28px;
+  margin-bottom:15px;
+}
+
+.hero p{
+  font-size:18px;
+}
+
+/* BOTAO */
+.botao{
+  display:inline-block;
+  margin-top:25px;
+  background:#333;
+  color:white;
+  padding:15px 30px;
+  border-radius:8px;
+  text-decoration:none;
+  font-weight:bold;
+  transition:0.3s;
+}
+
+.botao:hover{
+  background:#000;
+  transform:scale(1.05);
+}
+
+/* INFO */
+.info{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:20px;
+  margin:40px 0;
+}
+
+.box{
+  background:white;
+  width:230px;
+  padding:25px;
+  border-radius:12px;
+  text-align:center;
+  box-shadow:0 0 8px rgba(0,0,0,0.1);
+  font-weight:bold;
+}
+
+/* SERVICOS */
+.servicos{
+  text-align:center;
+  margin:40px 0;
+}
+
+.servicos h2{
+  margin-bottom:30px;
+}
+
+.cards{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:20px;
+}
+
+.card{
+  background:white;
+  width:250px;
+  padding:25px;
+  border-radius:12px;
+  box-shadow:0 0 8px rgba(0,0,0,0.1);
+}
+
+/* DEPOIMENTO */
+.depoimento{
+  background:#ddd;
+  padding:40px 20px;
+  border-radius:12px;
+  text-align:center;
+  margin:40px 0;
+  font-style:italic;
+}
+
+/* FOOTER */
+footer{
+  background:#444;
+  color:white;
+  text-align:center;
+  padding:20px;
+  margin-top:40px;
+}
+
+/* WHATSAPP */
+.whatsapp{
+  position:fixed;
+  bottom:20px;
+  right:20px;
+  background:#25d366;
+  color:white;
+  padding:15px 18px;
+  border-radius:50%;
+  text-decoration:none;
+  font-size:22px;
+  box-shadow:0 0 8px rgba(0,0,0,0.3);
+}
+
+.whatsapp:hover{
+  background:#128c7e;
+}
+
+/* RESPONSIVO */
+@media(max-width:768px){
+
+  .info{
+    flex-direction:column;
+    align-items:center;
+  }
+
+  .cards{
+    flex-direction:column;
+    align-items:center;
+  }
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Daros Serviços</h1>
+  <p>Montagem de Móveis e Serviços Residenciais</p>
+</header>
+
+<div class="container">
+
+  <!-- HERO -->
+  <section class="hero">
+
+    <h2>Qualidade, Confiança e Agilidade</h2>
+
+    <p>
+      Mais de 10 anos de experiência em serviços residenciais
+      na Serra - ES
+    </p>
+
+    <a class="botao" href="https://wa.me/5527997283361" target="_blank">
+      Solicitar Orçamento Agora
+    </a>
+
+  </section>
+
+  <!-- INFO -->
+  <section class="info">
+
+    <div class="box">
+      📍 Serra - ES
+    </div>
+
+    <div class="box">
+      ⏰ 08:00 às 18:00
+    </div>
+
+    <div class="box">
+      ⭐ 10 Anos de Experiência
+    </div>
+
+    <div class="box">
+      ✔️ Serviço Garantido
+    </div>
+
+  </section>
+
+  <!-- SERVICOS -->
+  <section class="servicos">
+
+    <h2>Meus Serviços</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        Montagem e desmontagem de móveis
+      </div>
+
+      <div class="card">
+        Instalação de suporte de TV
+      </div>
+
+      <div class="card">
+        Instalação de cortinas
+      </div>
+
+      <div class="card">
+        Pequenos reparos residenciais
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- DEPOIMENTO -->
+  <section class="depoimento">
+
+    “Serviço rápido, bem feito e com ótimo atendimento.
+    Recomendo com certeza!”
+    <br><br>
+    — Cliente da Serra - ES
+
+  </section>
+
+</div>
+
+<footer>
+  © 2026 Daros Serviços — Todos os direitos reservados
+</footer>
+
+<a class="whatsapp" href="https://wa.me/5527997283361" target="_blank">
+  💬
+</a>
+
+</body>
+</html>
